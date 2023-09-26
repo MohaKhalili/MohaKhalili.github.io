@@ -1,0 +1,2 @@
+pub_date	title	venue	excerpt	citation	url_slug	paper_url
+2022-01-01	CPG Design for Quadruped Robots	Journal x	This paper is in progress and about using CPG for control the Quadrupeds.	Your Name, You. (2022). "CPG Design for Quadruped Robots" <i>Journal x</i>. 1(1).	CPG-Design-for-Quadruped-Robots	http://mohakhalili.github.io/files/cpg.pdf

@@ -1,0 +1,43 @@
+# main links links
+#main:
+ 
+#  - title: "Publications"
+#    url: /publications/
+
+#  - title: "Talks"
+#    url: /talks/    
+
+#  - title: "Teaching"
+#    url: /teaching/    
+    
+#  - title: "Portfolio"
+#    url: /portfolio/
+        
+#  - title: "Blog Posts"
+#    url: /year-archive/
+    
+#  - title: "Curriculum Vitae"
+#    url: /Curriculum Vitae/
+    
+#  - title: "Guide"
+#    url: /markdown/
+
+main:
+    
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Projects"
+    url: /Projects/
+
+  - title: "CV"
+    url: /CV/
+
+  - title: "Blog"
+    url: /year-archive/
+
+  - title: "Qazvin Azad University"
+    url: /Qazvin Azad University/
+
+  - title: "Qazvin-Hometown"
+    url: /Qazvin-Hometown/
