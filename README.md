@@ -1,45 +1,40 @@
-# Mohammad Khalili Project Portfolio Website
+# Mohammad Khalili — Project Portfolio Website
 
-This is a static GitHub Pages website generated from the project portfolio PowerPoint.
+This is a simple static portfolio website generated from the PowerPoint project portfolio content and images.
 
-## Pages
+## Files
 
-- `index.html` — landing page / first portfolio page with an editable introduction space.
-- `battery-technology-automotive.html` — 5 projects.
-- `robotics-control.html` — 8 projects.
-- `iot-smart-devices.html` — 3 projects.
-- `power-electronics-energy.html` — 2 projects.
-- `test-equipment.html` — 2 projects.
+- `index.html` — homepage with hero, introduction space, and experience areas
+- `battery-technology-automotive.html`
+- `robotics-control.html`
+- `iot-smart-devices.html`
+- `power-electronics-energy.html`
+- `test-equipment.html`
+- `assets/data.js` — edit portfolio text, project lists, area names, and the blank introduction field
+- `assets/styles.css` — edit colors, spacing, typography, and layout
+- `assets/images/` — optimized images extracted from the PowerPoint
 
-## How to edit your content
+## Add your introduction
 
-Most text is in:
+Open `assets/data.js` and find:
 
-```text
-assets/content.js
+```js
+"intro": "",
 ```
 
-Update the introduction, email, GitHub, LinkedIn, project descriptions, tags, and placeholder text there.
+Replace the empty text with your introduction, for example:
 
-## How to add project photos
+```js
+"intro": "I am an embedded and control systems engineer focused on battery systems, robotics, IoT devices, and energy technology.",
+```
 
-Project pages currently include image placeholder boxes. To add real images:
+There is no visible “Introduction” title on the homepage.
 
-1. Put your image files in `assets/`.
-2. Edit the corresponding project card logic in `assets/area.js`, or replace the placeholder boxes in the HTML layout with `<img>` tags.
-3. Recommended image size: 1200 × 800 px or similar landscape screenshots/photos.
+## Publish with GitHub Pages
 
-## Publish on GitHub Pages
-
-1. Create a new GitHub repository, for example `mohammad-khalili.github.io` or `portfolio`.
-2. Upload all files from this folder.
+1. Create a GitHub repository.
+2. Upload all files from this folder to the repository root.
 3. Go to **Settings → Pages**.
-4. Select **Deploy from branch**.
-5. Choose the `main` branch and `/root`.
-6. Save and wait for GitHub to publish the site.
-
-## Suggested Codex prompt for future edits
-
-```text
-This is a static GitHub Pages portfolio website. Please edit assets/content.js and assets/styles.css only unless structural HTML changes are required. Keep the design close to the original PowerPoint portfolio style: light warm background, large dark typography, colored project-area accents, clean cards, and responsive pages.
-```
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Select the `main` branch and `/root`.
+6. Save. GitHub will publish the website.
