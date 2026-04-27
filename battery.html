@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Battery technology and automotive projects by Mohammad Khalili.">
+    <title>Battery Technology & Automotive | Mohammad Khalili</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="portfolio-page">
+    <header class="site-header">
+      <a class="brand" href="index.html">Personal Website</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a href="index.html#career">Work Experience</a>
+        <div class="nav-dropdown">
+          <button class="nav-trigger" type="button" aria-haspopup="true" aria-current="page">Project Portfolio</button>
+          <div class="dropdown-menu" aria-label="Project Portfolio pages">
+            <a aria-current="page" href="battery.html">Battery Technology & Automotive</a>
+            <a href="robotics.html">Robotics & Control</a>
+            <a href="iot.html">IoT & Smart Devices</a>
+            <a href="energy.html">Power Electronics & Energy</a>
+            <a href="test-equipment.html">Test Equipment</a>
+          </div>
+        </div>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Battery Technology & Automotive</p>
+        <h1>Battery systems, estimation, verification, diagnostics, and quality leadership.</h1>
+        <p class="lead">Projects across electromobility ESS investigations, UPS and EV battery management, lithium-ion products, and solar-car battery monitoring.</p>
+      </section>
+
+      <section class="section project-list">
+        <article class="project-detail project-detail--with-header">
+          <figure class="project-wide-header">
+            <img src="assets/projects/ess-workshop.jpg" alt="Energy storage quality workshop">
+          </figure>
+          <div class="project-media">
+            <img src="assets/projects/ess-pack.jpg" alt="Electric vehicle ESS pack">
+            <img src="assets/projects/ess-module.jpg" alt="Energy storage system module inspection">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">Volvo Group | Gothenburg | 2024-2026</p>
+            <h2>Software Quality Leadership - ESS</h2>
+            <p>System-level reviews and technical investigations for electromobility energy storage systems across multiple vehicle brands.</p>
+            <ul class="tags"><li>ESS SW</li><li>RCA</li><li>Teardown</li><li>Data Analysis</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Led software-related field campaigns for Volvo and Renault Trucks.</li>
+              <li>Analyzed customer issues, field data, CAN logs, and vehicle behavior using SQL, Python, CANalyzer, CAN, and JIRA.</li>
+              <li>Led system-level root-cause investigations across software, hardware, sensing, diagnostics, calibration, and integration.</li>
+            </ul>
+            <p class="result">Turned field evidence and technical findings into quality decisions, specification updates, and improved product robustness.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media">
+            <img src="assets/projects/ups-bms-board-render.jpg" alt="UPS BMS board render">
+            <img src="assets/projects/ups-bms-device.jpg" alt="UPS BMS device">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">DowranSET | TIC UPS battery houses | 2017-2023</p>
+            <h2>UPS Battery Management System</h2>
+            <p>BMS for large lead-acid UPS battery houses in telecommunication infrastructure.</p>
+            <ul class="tags"><li>Lead-acid BMS</li><li>STM32</li><li>HIL</li><li>IEC/ISO tests</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Implemented SOC estimation using coulomb counting and Kalman filtering.</li>
+              <li>Designed measurement-module PCBs and improved current and voltage accuracy.</li>
+              <li>Built BMS functions, test procedures, and PIL/HIL verification using STM32 microcontrollers.</li>
+            </ul>
+            <p class="result">Delivered a safe, verified BMS prototype for telecom UPS applications and supported certification for systems with up to 60 lead-acid batteries.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media">
+            <img src="assets/projects/lithium-pack-sketch.jpg" alt="Portable lithium-ion pack sketch">
+            <img src="assets/projects/lithium-pack-device.jpg" alt="Portable lithium-ion battery pack">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">DowranSET | VEBKO portable 220V pack | 2017-2023</p>
+            <h2>Industrial Lithium-Ion Battery Pack</h2>
+            <p>Portable 220V lithium-ion battery pack for power relay testing, power plants, home appliances, and camping use cases.</p>
+            <ul class="tags"><li>Li-ion Battery</li><li>Thermal</li><li>220V output</li><li>Lifecycle</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Implemented SOC estimation using open-circuit voltage and coulomb counting.</li>
+              <li>Modelled and tested lithium-ion cells with EEC methods and online characterization.</li>
+              <li>Developed PCC-based thermal management using AllCell material.</li>
+            </ul>
+            <p class="result">Improved safety and reliability through thermal management, characterization, and environmental validation.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media project-media--single">
+            <img src="assets/projects/ev-bms-test.jpg" alt="EV BMS test setup">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">SYNTECH | Renault Twizy / PARAXMOTORS YOOZ | 2014-2017</p>
+            <h2>EV Battery Management System</h2>
+            <p>Battery management and real-time testing systems for two-seater electric vehicles.</p>
+            <ul class="tags"><li>Embedded C</li><li>Kalman Filter</li><li>SOC / SOH</li><li>MATLAB/Simulink</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Implemented SOC estimation with coulomb counting and Kalman filtering.</li>
+              <li>Modelled lithium-ion batteries using EEC models and evaluated state estimation methods.</li>
+              <li>Designed a MATLAB/Simulink-compatible test bed connecting load cycles, battery pack, BMS, and motor.</li>
+            </ul>
+            <p class="result">Achieved 1% SOC accuracy and strengthened control and HIL readiness for EV battery system development.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media project-media--single">
+            <img src="assets/projects/battery-monitoring-dashboard.jpg" alt="Battery monitoring dashboard">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">SYNTECH | PGSC Solar Car | 2014-2017</p>
+            <h2>Battery Pack Parameters Monitoring System</h2>
+            <p>Monitoring system for the University of Tehran PGSC Solar Car battery pack.</p>
+            <ul class="tags"><li>Solar Car</li><li>Current Sensing</li><li>SOC</li><li>Calibration</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Calibrated the shunt current sensor for accurate battery current measurement.</li>
+              <li>Implemented SOC estimation using the coulomb counting method.</li>
+              <li>Derived a polynomial equation for the current sensor using curve fitting and validation.</li>
+            </ul>
+            <p class="result">Achieved 1% current sensor accuracy and improved reliability of SOC tracking during solar car testing and operation.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Battery Technology & Automotive</p>
+      <a href="robotics.html">Next: Robotics & Control</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Robotics and control projects by Mohammad Khalili.">
+    <title>Robotics & Control | Mohammad Khalili</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="portfolio-page">
+    <header class="site-header">
+      <a class="brand" href="index.html">Personal Website</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a href="index.html#career">Work Experience</a>
+        <div class="nav-dropdown">
+          <button class="nav-trigger" type="button" aria-haspopup="true" aria-current="page">Project Portfolio</button>
+          <div class="dropdown-menu" aria-label="Project Portfolio pages">
+            <a href="battery.html">Battery Technology & Automotive</a>
+            <a aria-current="page" href="robotics.html">Robotics & Control</a>
+            <a href="iot.html">IoT & Smart Devices</a>
+            <a href="energy.html">Power Electronics & Energy</a>
+            <a href="test-equipment.html">Test Equipment</a>
+          </div>
+        </div>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Robotics & Control</p>
+        <h1>Bio-inspired locomotion, force sensing, UAV platforms, and embedded control systems.</h1>
+        <p class="lead">Projects spanning quadruped control, rehabilitation sensing, multirotor dynamics, solar UAVs, autopilot hardware, IMU products, engine sensing, and protocol switching.</p>
+      </section>
+
+      <section class="section project-list">
+        <article class="project-detail">
+          <div class="project-media project-media--single">
+            <img src="assets/projects/quadruped-controller-diagram.jpg" alt="Bio-inspired quadruped controller diagram">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">DowranSET | Robotics | 2017-2023</p>
+            <h2>Bio-inspired Controller for Quadruped Robots</h2>
+            <p>Locomotion control architecture inspired by biological central pattern generators.</p>
+            <ul class="tags"><li>CPG</li><li>Hopf Oscillators</li><li>ILC + PD</li><li>Legged Robots</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Designed CPG networks using nonlinear Hopf oscillators.</li>
+              <li>Developed independent swing and stance phase control.</li>
+              <li>Combined ILC and PD control to improve tracking accuracy.</li>
+            </ul>
+            <p class="result">Enabled flexible multi-gait locomotion with one controller network and reduced trajectory tracking error to below 0.1 rad.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media project-media--single">
+            <img src="assets/projects/foot-force-system.jpg" alt="Human foot force measurement system">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">DowranSET | Robotics & rehabilitation | 2017-2023</p>
+            <h2>Force Measurement System on the Human Foot</h2>
+            <p>Bio-inspired robotics and rehabilitation measurement system for analyzing human foot force patterns.</p>
+            <ul class="tags"><li>Rehabilitation</li><li>Wi-Fi</li><li>MATLAB</li><li>Force Sensing</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Designed the electrical and embedded system architecture.</li>
+              <li>Implemented Wi-Fi communication for wireless force data transfer.</li>
+              <li>Imported measurement data into MATLAB for analysis.</li>
+            </ul>
+            <p class="result">Enabled accurate monitoring of human foot force distribution and supported rehabilitation-focused robotics research.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media project-media--single">
+            <img src="assets/projects/y6-multirotor.jpg" alt="Y6 multirotor platform">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">SYNTECH | Drone projects | 2014-2017</p>
+            <h2>Y6 Multirotor</h2>
+            <p>Y-shape multirotor dynamics, fuzzy PD control, and HIL validation.</p>
+            <ul class="tags"><li>Y6</li><li>Fuzzy PID</li><li>HIL</li><li>Autopilot</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Modelled the equations of motion for the Y-shaped multirotor configuration.</li>
+              <li>Designed a fuzzy PD controller for position and attitude control.</li>
+              <li>Implemented and tested the controller in an HIL environment.</li>
+            </ul>
+            <p class="result">Validated the fuzzy PD controller in HIL and supported customer approval of the autopilot.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media project-media--single">
+            <img src="assets/projects/solar-uav-aircraft.jpg" alt="Solar UAV aircraft">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">SYNTECH | Solar UAV | 2014-2017</p>
+            <h2>Solar UAV</h2>
+            <p>Long-endurance UAV with solar power source and HIL-tuned autopilot.</p>
+            <ul class="tags"><li>Solar UAV</li><li>HIL Tuning</li><li>Autopilot</li><li>Competition</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Simulated the UAV dynamic system for control development.</li>
+              <li>Designed and tuned controller parameters in HIL.</li>
+              <li>Optimized controller performance using intelligent methods.</li>
+            </ul>
+            <p class="result">Achieved 2nd place in a national Hobby UAV competition and supported long-endurance forestry application readiness.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media">
+            <img src="assets/projects/uav-autopilot-pcb-render.jpg" alt="Autopilot PCB render">
+            <img src="assets/projects/uav-autopilot-hardware.jpg" alt="Autopilot hardware test setup">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">SYNTECH | UAV autopilot | 2014-2017</p>
+            <h2>Multirotor & UAV Autopilot</h2>
+            <p>Embedded autopilot platform with IMU calibration, sensor fusion, CAN modules, and energy optimization.</p>
+            <ul class="tags"><li>Autopilot</li><li>CAN</li><li>IMU</li><li>Sensor Fusion</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Calibrated IMU sensors using curve fitting methods.</li>
+              <li>Programmed Kalman filter-based sensor fusion algorithms.</li>
+              <li>Integrated peripheral modules through CAN-BUS communication.</li>
+            </ul>
+            <p class="result">Improved autopilot sensing reliability and enabled modular CAN-BUS architecture with portable wireless monitoring.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media project-media--single">
+            <img src="assets/projects/imu-product.jpg" alt="Commercial inertial measurement unit">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">SYNTECH | IMU product | 2014-2017</p>
+            <h2>Inertial Measurement System</h2>
+            <p>Commercial IMU product with calibration UI and low-power embedded design.</p>
+            <ul class="tags"><li>IMU</li><li>Calibration</li><li>MATLAB</li><li>Low Power</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Designed the user interface for IMU setting and calibration.</li>
+              <li>Calibrated IMU sensors using MATLAB-based curve fitting.</li>
+              <li>Performed calibration and validation through HIL testing.</li>
+            </ul>
+            <p class="result">Delivered a commercial IMU solution with easier configuration and very low power consumption.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media">
+            <img src="assets/projects/uav-engine-pcb.jpg" alt="UAV engine sensing PCB">
+            <img src="assets/projects/uav-engine-system.jpg" alt="UAV engine measurement system">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">SYNTECH | UAV engine sensing | 2014-2017</p>
+            <h2>UAV Engine Parameters Measurement System</h2>
+            <p>Embedded measurement system for engine exhaust gases and fuel-gauge sensing.</p>
+            <ul class="tags"><li>Engine Sensing</li><li>PCB</li><li>Fuel Gauge</li><li>Exhaust Gases</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Designed schematic and PCB for the measurement system.</li>
+              <li>Built exhaust gas measurement capability.</li>
+              <li>Developed a precise fuel gauge using a new electromagnetic method.</li>
+            </ul>
+            <p class="result">Enabled reliable UAV engine parameter monitoring and improved fuel measurement precision.</p>
+          </div>
+        </article>
+
+        <article class="project-detail">
+          <div class="project-media">
+            <img src="assets/projects/serial-switcher-device.jpg" alt="Serial protocol switcher device">
+            <img src="assets/projects/serial-switcher-pcb-render.jpg" alt="Serial protocol switcher PCB render">
+          </div>
+          <div class="project-detail__body">
+            <p class="meta">SYNTECH | Hobby/industrial communication | 2014-2017</p>
+            <h2>Serial Protocol Switcher System</h2>
+            <p>Two-way serial protocol switching system for combining multiple serial ports.</p>
+            <ul class="tags"><li>Serial Ports</li><li>Two-way Comm</li><li>PCB</li><li>Hobby Market</li></ul>
+            <h3>Technical Highlights</h3>
+            <ul class="clean-list">
+              <li>Researched challenges in using multiple serial protocols.</li>
+              <li>Designed schematic and PCB for the switching system.</li>
+              <li>Implemented complete two-way communication between connected devices.</li>
+            </ul>
+            <p class="result">Delivered a practical multi-protocol serial communication solution for flexible port combination and bidirectional data exchange.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Robotics & Control</p>
+      <a href="iot.html">Next: IoT & Smart Devices</a>
+    </footer>
+  </body>
+</html>
