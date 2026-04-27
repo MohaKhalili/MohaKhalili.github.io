@@ -7,11 +7,10 @@ window.PORTFOLIO_DATA = {
     "eyebrow": "Project Portfolio",
     "tagline": "Embedded/Control Systems · Automotive · Battery Technology · Robotics · IoT",
     "footer": "Mohammad Khalili · Project Portfolio",
-    "introTitle": "Introduction",
-    "intro": "Add a short personal introduction here. For example: I am an embedded and control systems engineer with experience across battery technology, automotive energy storage, robotics, IoT devices, power electronics, and measurement systems. My work combines system-level thinking, firmware, controls, verification, data analysis, and product-quality leadership.",
-    "email": "your.email@example.com",
-    "github": "https://github.com/your-username",
-    "linkedin": "https://www.linkedin.com/in/your-profile"
+    "intro": "Embedded Software Engineer with 11+ years of experience in firmware, battery management systems, control systems, HIL testing, and system-level debugging. Experienced in translating field data, hardware behavior, and stakeholder needs into clear software, hardware, and system requirements. Seeking Embedded/Software/Systems Engineering roles focused on Automotive, ESS, Electromobility, Control Systems, IoT, and Robotics.",
+    "email": "ex.khalili@example.com",
+    "github": "https://github.com/mohakhalili",
+    "linkedin": "https://www.linkedin.com/in/mohammad-khalili/"
   },
   "areas": [
     {
@@ -24,7 +23,6 @@ window.PORTFOLIO_DATA = {
       "summary": "Battery systems, estimation, verification, diagnostics, and product-quality leadership.",
       "projects": [
         {
-          "number": "01",
           "title": "Software Quality Leadership - ESS",
           "subtitle": "System-level reviews and technical investigations for electromobility ESS across multiple vehicle brands.",
           "organization": "Volvo Group · Gothenburg · 2024–2026",
@@ -52,7 +50,6 @@ window.PORTFOLIO_DATA = {
           ]
         },
         {
-          "number": "02",
           "title": "UPS Battery Management System",
           "subtitle": "BMS for large lead-acid UPS battery houses in telecommunication infrastructure.",
           "organization": "DowranSET · TIC UPS battery houses · 2017–2023",
@@ -82,7 +79,6 @@ window.PORTFOLIO_DATA = {
           ]
         },
         {
-          "number": "03",
           "title": "Industrial Lithium-Ion Battery Pack",
           "subtitle": "Portable 220V lithium-ion battery pack for power relay testing, power plants, and general use.",
           "organization": "DowranSET · VEBKO / portable 220V pack · 2017–2023",
@@ -112,7 +108,6 @@ window.PORTFOLIO_DATA = {
           ]
         },
         {
-          "number": "04",
           "title": "EV Battery Management System",
           "subtitle": "Battery management and real-time testing systems for two-seater electric vehicles.",
           "organization": "SYNTECH · Renault Twizy / PARAXMOTORS YOOZ · 2014–2017",
@@ -141,7 +136,6 @@ window.PORTFOLIO_DATA = {
           ]
         },
         {
-          "number": "05",
           "title": "Battery Pack Parameters Monitoring System",
           "subtitle": "Monitoring system for the University of Tehran PGSC Solar Car battery pack.",
           "organization": "SYNTECH · PGSC Solar Car · 2014–2017",
